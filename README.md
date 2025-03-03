@@ -15,7 +15,6 @@ the Sudoku puzzle in the console (a 9x9 grid where empty cells are represented b
 The program expects a 9x9 grid input, where 0 represents an empty cell. Here's an example:
 
 Copy
-Edit
 5 3 0 0 7 0 0 0 0
 6 0 0 1 9 5 0 0 0
 0 9 8 0 0 0 0 6 0
@@ -31,9 +30,12 @@ Once the puzzle is solved, the solution will be printed on the console.
 
 ## Code Explanation
 display(int[][] board): Prints the current state of the Sudoku board.
+
 solveSudoku(int[][] board, int i, int j): Recursively solves the Sudoku puzzle.
+
 isValid(int[][] board, int x, int y, int val): Checks if a number can be placed at a given position without violating the Sudoku rules.
 
 ## Time and Space Complexity
 Time Complexity: O(9^(n*n)), where n is the size of the grid (9x9). This arises from the recursive nature of the algorithm, where we try different numbers for each empty cell.
+
 Space Complexity: O(n*n), due to the storage of the Sudoku grid.
