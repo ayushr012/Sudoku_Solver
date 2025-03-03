@@ -4,7 +4,9 @@ This project implements a Sudoku solver using the backtracking algorithm. The pr
 
 ## Features
 Solves a Sudoku puzzle by filling missing values.
+
 Uses recursion and backtracking algorithm to find solutions.
+
 Checks for validity in rows, columns, and 3x3 sub-grids.
 
 
@@ -14,9 +16,11 @@ the Sudoku puzzle in the console (a 9x9 grid where empty cells are represented b
 ### Input Format
 The program expects a 9x9 grid input, where 0 represents an empty cell. Here's an example:
 
+
 Copy
-5 3 0 0 7 0 0 0 0
-6 0 0 1 9 5 0 0 0
+
+''' 5 3 0 0 7 0 0 0 0
+''' 6 0 0 1 9 5 0 0 0
 0 9 8 0 0 0 0 6 0
 8 0 0 0 6 0 0 0 3
 4 0 0 8 0 3 0 0 1
